@@ -1,4 +1,17 @@
 
-with open("c://users/atsemewa/documents/dir_test1.txt",'w') as file:
-	file.write("my name is rahab, i'm a cute lady.\n")
-	file.write("my name is rahab, i'm a cute lady.")
+
+print("WELCOME TO MY CONSOLE APP")
+print()
+print()
+file_name=input('ENTER COMPLETE FILE NAME: ')
+print()
+print('ENTER TEXT(enter "exit()" to terminate')
+print()
+with open(file_name,"w") as file:
+	while True:
+		line = input()
+		if line == "exit()":
+			break
+		file.write(line + "\n")
+
+
