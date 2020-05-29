@@ -1,2 +1,2 @@
 # file-io
-This program is to write a repository with github to enhance the brain
+This program is the founding father of all programs and I vouch for that
